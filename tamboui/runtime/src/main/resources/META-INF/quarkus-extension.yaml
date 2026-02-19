@@ -1,0 +1,14 @@
+name: "Aesh TamboUI"
+artifact: ${project.groupId}:${project.artifactId}:${project.version}
+metadata:
+  keywords:
+  - "aesh"
+  - "tamboui"
+  - "tui"
+  - "cli"
+  categories:
+  - "miscellaneous"
+  status: "preview"
+  guide: "https://docs.quarkiverse.io/quarkus-aesh/dev/index.html"
+  config:
+  - "quarkus.aesh."

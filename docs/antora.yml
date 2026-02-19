@@ -1,0 +1,5 @@
+name: quarkus-aesh
+title: Aesh
+version: dev
+nav:
+  - modules/ROOT/nav.adoc
