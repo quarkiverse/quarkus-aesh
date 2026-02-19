@@ -33,8 +33,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.version>3.32.0.CR1</quarkus.version>
-        <aesh.version>3.0</aesh.version>
-        <aesh-readline.version>3.1</aesh-readline.version>
+        <aesh.version>3.2</aesh.version>
+        <aesh-readline.version>3.2</aesh-readline.version>
         <tamboui.version>0.1.0</tamboui.version>
         <assertj.version>3.27.7</assertj.version>
         <sshd.version>2.12.1</sshd.version>
@@ -158,6 +158,7 @@
                     <groupId>io.quarkus</groupId>
                     <artifactId>quarkus-maven-plugin</artifactId>
                     <version>${quarkus.version}</version>
+                    <extensions>true</extensions>
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>

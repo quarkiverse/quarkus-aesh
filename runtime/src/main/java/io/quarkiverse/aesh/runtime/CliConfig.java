@@ -28,20 +28,6 @@ public interface CliConfig {
     Optional<Boolean> enableColor();
 
     /**
-     * The execution mode for the Aesh extension.
-     * <ul>
-     * <li>{@code auto} - Automatically detect the mode based on the number of commands.
-     * Single command uses runtime mode, multiple commands use console mode.</li>
-     * <li>{@code runtime} - Use AeshRuntimeRunner for single command execution (like picocli).
-     * Executes one command and exits.</li>
-     * <li>{@code console} - Use AeshConsoleRunner for interactive shell mode.
-     * Starts a REPL where users can type multiple commands.</li>
-     * </ul>
-     */
-    @WithDefault("auto")
-    AeshMode mode();
-
-    /**
      * The prompt to display in console mode.
      * Only used when mode is set to 'console' or auto-detected as console.
      */
